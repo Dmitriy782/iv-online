@@ -1,0 +1,52 @@
+﻿Build started 7/15/2013 2:43:25 AM.
+     1>Project "Z:\GTAMP\trunk\Server\Launcher\Server.Launcher.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Server.Launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I../../Shared /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D WIN32_LEAN_AND_MEAN /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdInc.h" /Fp"Debug\ivmp-svr.Debug.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt StdInc.cpp
+         StdInc.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I../../Shared /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D WIN32_LEAN_AND_MEAN /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt ..\..\Shared\CLibrary.cpp ..\..\Shared\CString.cpp ..\..\Shared\SharedUtility.cpp ..\..\Shared\Threading\CMutex.cpp ..\..\Shared\Threading\CThread.cpp
+         CThread.cpp
+         CMutex.cpp
+         SharedUtility.cpp
+         CString.cpp
+         CLibrary.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I../../Shared /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D WIN32_LEAN_AND_MEAN /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdInc.h" /Fp"Debug\ivmp-svr.Debug.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\Server.Launcher.res" Server.Launcher.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ivmp-svr.Debug.exe.embed.manifest.res" Debug\ivmp-svr.Debug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ivmp-svr.Debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.lib" /MACHINE:X86 Debug\Server.Launcher.res
+         "Debug\ivmp-svr.Debug.exe.embed.manifest.res"
+         Debug\CLibrary.obj
+         Debug\CString.obj
+         Debug\SharedUtility.obj
+         Debug\CMutex.obj
+         Debug\CThread.obj
+         Debug\Main.obj
+         Debug\StdInc.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ivmp-svr.Debug.exe.embed.manifest" /manifest "Debug\ivmp-svr.Debug.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ivmp-svr.Debug.exe.embed.manifest.res" Debug\ivmp-svr.Debug_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ivmp-svr.Debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.lib" /MACHINE:X86 Debug\Server.Launcher.res
+         "Debug\ivmp-svr.Debug.exe.embed.manifest.res"
+         Debug\CLibrary.obj
+         Debug\CString.obj
+         Debug\SharedUtility.obj
+         Debug\CMutex.obj
+         Debug\CThread.obj
+         Debug\Main.obj
+         Debug\StdInc.obj
+         Server.Launcher.vcxproj -> Z:\GTAMP\trunk\Binary\ivmp-svr.Debug.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Server.Launcher.unsuccessfulbuild".
+         Touching "Debug\Server.Launcher.lastbuildstate".
+     1>Done Building Project "Z:\GTAMP\trunk\Server\Launcher\Server.Launcher.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.17
