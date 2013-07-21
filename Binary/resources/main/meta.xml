@@ -1,0 +1,19 @@
+<meta>
+
+	<serverscript src="cp.lua"/>
+	<serverscript src="busdriver.lua"/>
+	<serverscript src="indicators.lua"/>
+	<serverscript src="namecheck.lua"/>
+	<serverscript src="runcode.lua"/>
+	<serverscript src="whisper.lua"/>
+
+	<clientscript src="c_audio.lua"	/>
+	<clientscript src="c_scoreboard.lua" />
+	<clientscript src="c_indicators.lua" />
+	<clientscript src="c_runcode.lua" />
+	<!--clientscript src="c_frametest.lua"	/-->
+
+	<clientresource src="hud.dat"/>
+	<clientresource src="RadioLogo.dat"/>
+
+</meta>

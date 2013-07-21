@@ -1,0 +1,621 @@
+﻿Build started 7/15/2013 2:43:26 AM.
+     1>Project "Z:\GTAMP\trunk\Client\Core\Client.Core.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Client.Core.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Vendor /I..\..\Shared /I..\..\Vendor\CEGUI\cegui\include /I"..\..\Vendor\zlib-1.2.5" /I..\..\Vendor\DXSDK\include /I..\..\Vendor\bass /I..\..\Vendor\Lua /I..\..\Vendor\EA /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D CLIENT_EXPORTS /D WIN32_LEAN_AND_MEAN /D LOGGER /D CEGUI_STATIC /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4996 /wd4409 /analyze- /errorReport:prompt ..\..\Shared\CEvents.cpp AimSync.cpp C3DLabels.cpp CAudioManager.cpp CClient.cpp CFileTransferManager.cpp CHooks.cpp CDebugView.cpp CIVObject.cpp CIVTrain.cpp CIVWeapon.cpp Commands.cpp CQuickConnect.cpp CServerBrowser.cpp CSettingsMenu.cpp CTrains.cpp Input.cpp Main.cpp CDirectInput8Proxy.cpp CDirectInputDevice8Proxy.cpp CChatWindow.cpp CCredits.cpp CFPSCounter.cpp CGraphics.cpp CGUI.cpp CInputWindow.cpp CMainMenu.cpp CNameTags.cpp CScreenShot.cpp CCamera.cpp CClientTaskManager.cpp CContextDataManager.cpp CGame.cpp CGameFileChecker.cpp CModelManager.cpp COffsets.cpp CPools.cpp Indicators.cpp KeySync.cpp TrafficLights.cpp ScriptHook.cpp CIVCam.cpp CIVCheckpoint.cpp CIVDynamicEntity.cpp CIVEntity.cpp CIVEvent.cpp CIVModelInfo.cpp CIVPad.cpp CIVPadData.cpp CIVPed.cpp CIVPedTaskManager.cpp CIVPedWeapons.cpp CIVPhysical.cpp CIVPlayerInfo.cpp CIVPlayerPed.cpp CIVStreaming.cpp CIVTask.cpp CIVVehicle.cpp CIVPedWeaponSlot.cpp CIVWeaponInfo.cpp CIVWeather.cpp CIVWorld.cpp IVTasks.cpp ..\..\Shared\Game\CControlState.cpp ..\..\Shared\Game\CTime.cpp ..\..\Shared\Game\CTrafficLights.cpp CAudio.cpp CActorManager.cpp CFireManager.cpp CBlipManager.cpp CCheckpoint.cpp CCheckpointManager.cpp CClientPacketHandler.cpp CClientRPCHandler.cpp CFileTransfer.cpp CLocalPlayer.cpp CNetworkManager.cpp CNetworkPlayer.cpp CNetworkVehicle.cpp CObject.cpp CObjectManager.cpp CPickup.cpp CPickupManager.cpp CPlayerManager.cpp CRemotePlayer.cpp CStreamer.cpp CVehicleManager.cpp ..\..\Shared\Network\CBitStream.cpp ..\..\Shared\Network\CHttpClient.cpp ..\..\Shared\Network\CNetworkModule.cpp ..\..\Shared\Network\CPacketHandler.cpp ..\..\Shared\Network\CRPCHandler.cpp CMasterListQuery.cpp CServerQuery.cpp CClientScriptGUIManager.cpp CClientScriptManager.cpp ..\..\Shared\Scripting\CScriptingManager.cpp ..\..\Shared\Scripting\CScriptTimer.cpp ..\..\Shared\Scripting\CScriptTimerManager.cpp ..\..\Shared\Scripting\CScript.cpp ..\..\Shared\Scripting\CScriptArguments.cpp Natives\ClientNatives.cpp Natives\GUINatives.cpp Natives\PlayerNatives.cpp Natives\VehicleNatives.cpp Natives\AudioNatives.cpp ..\..\Shared\Scripting\Natives\AreaNatives.cpp ..\..\Shared\Scripting\Natives\EventNatives.cpp ..\..\Shared\Scripting\Natives\HashNatives.cpp ..\..\Shared\Scripting\Natives\SQLiteNatives.cpp ..\..\Shared\Scripting\Natives\TimerNatives.cpp ..\..\Shared\Scripting\Natives\WorldNatives.cpp ..\..\Shared\Scripting\Natives\XMLNatives.cpp ..\..\Shared\CExceptionHandler.cpp ..\..\Shared\CLibrary.cpp ..\..\Shared\CLogFile.cpp ..\..\Shared\Patcher\CPatcher.cpp ..\..\Shared\CSettings.cpp ..\..\Shared\CString.cpp ..\..\Shared\VFS\CVFSModule.cpp ..\..\Shared\SharedUtility.cpp ..\..\Shared\CSQLite.cpp ..\..\Shared\CXML.cpp ..\..\Vendor\tinyxml\ticpp.cpp ..\..\Vendor\tinyxml\tinystr.cpp ..\..\Vendor\tinyxml\tinyxml.cpp ..\..\Vendor\tinyxml\tinyxmlerror.cpp ..\..\Vendor\tinyxml\tinyxmlparser.cpp ..\..\Shared\Threading\CMutex.cpp ..\..\Shared\Threading\CThread.cpp ..\..\Vendor\md5\md5.cpp CXLiveHook.cpp CCursorHook.cpp CDirect3DHook.cpp CDirectInputHook.cpp
+         CDirectInputHook.cpp
+         CDirect3DHook.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CCursorHook.cpp
+         CXLiveHook.cpp
+         md5.cpp
+         CThread.cpp
+         CMutex.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         ticpp.cpp
+         CXML.cpp
+         CSQLite.cpp
+         SharedUtility.cpp
+         CVFSModule.cpp
+         CString.cpp
+         CSettings.cpp
+         CPatcher.cpp
+         CLogFile.cpp
+         Generating Code...
+         Compiling...
+         CLibrary.cpp
+         CExceptionHandler.cpp
+         XMLNatives.cpp
+         WorldNatives.cpp
+         TimerNatives.cpp
+         SQLiteNatives.cpp
+         HashNatives.cpp
+         EventNatives.cpp
+         AreaNatives.cpp
+         AudioNatives.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         VehicleNatives.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         PlayerNatives.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         GUINatives.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         ClientNatives.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CScriptArguments.cpp
+         CScript.cpp
+         CScriptTimerManager.cpp
+         CScriptTimer.cpp
+         CScriptingManager.cpp
+         CClientScriptManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         Generating Code...
+         Compiling...
+         CClientScriptGUIManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CServerQuery.cpp
+         CMasterListQuery.cpp
+         CRPCHandler.cpp
+         CPacketHandler.cpp
+         CNetworkModule.cpp
+         CHttpClient.cpp
+         CBitStream.cpp
+         CVehicleManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CStreamer.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CRemotePlayer.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CPlayerManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CPickupManager.cpp
+         CPickup.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CObjectManager.cpp
+         CObject.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CNetworkVehicle.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CGame::ConvertRotationMatrixToEulerAngles should flip the rotation itself
+         CNetworkPlayer.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CNetworkManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CLocalPlayer.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         Generating Code...
+         Compiling...
+         CFileTransfer.cpp
+         CClientRPCHandler.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CClientPacketHandler.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CCheckpointManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CCheckpoint.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CBlipManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CFireManager.cpp
+         CActorManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CAudio.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CTrafficLights.cpp
+         CTime.cpp
+         CControlState.cpp
+         IVTasks.cpp
+         CIVWorld.cpp
+         CIVWeather.cpp
+         CIVWeaponInfo.cpp
+         CIVPedWeaponSlot.cpp
+         CIVVehicle.cpp
+         CIVTask.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CIVStreaming.cpp
+         Generating Code...
+         Compiling...
+         CIVPlayerPed.cpp
+         CIVPlayerInfo.cpp
+         CIVPhysical.cpp
+         CIVPedWeapons.cpp
+         CIVPedTaskManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CIVPed.cpp
+         CIVPadData.cpp
+         CIVPad.cpp
+         CIVModelInfo.cpp
+         CIVEvent.cpp
+         CIVEntity.cpp
+         CIVDynamicEntity.cpp
+         CIVCheckpoint.cpp
+         CIVCam.cpp
+         ScriptHook.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         TrafficLights.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         KeySync.cpp
+         Indicators.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CPools.cpp
+         COffsets.cpp
+         Generating Code...
+         Compiling...
+         CModelManager.cpp
+         CGameFileChecker.cpp
+         CGame.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CContextDataManager.cpp
+         CClientTaskManager.cpp
+         CCamera.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CScreenShot.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CNameTags.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CMainMenu.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CInputWindow.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CGUI.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CGraphics.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CFPSCounter.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CCredits.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CChatWindow.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CDirectInputDevice8Proxy.cpp
+         CDirectInput8Proxy.cpp
+         Main.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         Input.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CTrains.cpp
+         Generating Code...
+         Compiling...
+         CSettingsMenu.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CServerBrowser.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CQuickConnect.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         Commands.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CIVWeapon.cpp
+         CIVTrain.cpp
+         CIVObject.cpp
+         CDebugView.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CHooks.cpp
+         CFileTransferManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CClient.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CAudioManager.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         C3DLabels.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         AimSync.cpp
+         Macro definition of max detected - undefining
+         Macro definition of min detected - undefining
+         CEvents.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Vendor /I..\..\Shared /I..\..\Vendor\CEGUI\cegui\include /I"..\..\Vendor\zlib-1.2.5" /I..\..\Vendor\DXSDK\include /I..\..\Vendor\bass /I..\..\Vendor\Lua /I..\..\Vendor\EA /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D CLIENT_EXPORTS /D WIN32_LEAN_AND_MEAN /D LOGGER /D CEGUI_STATIC /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /wd4996 /wd4409 /analyze- /errorReport:prompt ..\..\Vendor\sqlite\sqlite3.c
+         sqlite3.c
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Client.Core.Debug.dll.embed.manifest.res" Debug\Client.Core.Debug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\GTAMP\trunk\Binary\\Client.Core.Debug.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Vendor\lib\static /LIBPATH:..\..\Vendor\bass /LIBPATH:..\..\Vendor\DXSDK\Lib /LIBPATH:..\..\Vendor\lib winmm.lib d3dx9.lib ws2_32.lib comctl32.lib dinput8.lib dxguid.lib expat_static_d.lib pcre_d.lib SILLY_d.lib freetype_d.lib libjpeg_d.lib libpng_d.lib zlib_d.lib CEGUIBase_d.lib CEGUIDirect3D9Renderer_d.lib CEGUIExpatParser_d.lib CEGUIFalagardWRBase_d.lib CEGUISILLYImageCodec_d.lib version.lib bass.lib lua_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Client.Core.Debug.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\GTAMP\trunk\Binary\Client.Core.Debug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\GTAMP\trunk\Binary\Client.Core.Debug.lib" /MACHINE:X86 /SAFESEH:NO /DLL Debug\Client.Core.Debug.dll.embed.manifest.res
+         Debug\CEvents.obj
+         Debug\AimSync.obj
+         Debug\C3DLabels.obj
+         Debug\CAudioManager.obj
+         Debug\CClient.obj
+         Debug\CFileTransferManager.obj
+         Debug\CHooks.obj
+         Debug\CDebugView.obj
+         Debug\CIVObject.obj
+         Debug\CIVTrain.obj
+         Debug\CIVWeapon.obj
+         Debug\Commands.obj
+         Debug\CQuickConnect.obj
+         Debug\CServerBrowser.obj
+         Debug\CSettingsMenu.obj
+         Debug\CTrains.obj
+         Debug\Input.obj
+         Debug\Main.obj
+         Debug\CDirectInput8Proxy.obj
+         Debug\CDirectInputDevice8Proxy.obj
+         Debug\CChatWindow.obj
+         Debug\CCredits.obj
+         Debug\CFPSCounter.obj
+         Debug\CGraphics.obj
+         Debug\CGUI.obj
+         Debug\CInputWindow.obj
+         Debug\CMainMenu.obj
+         Debug\CNameTags.obj
+         Debug\CScreenShot.obj
+         Debug\CCamera.obj
+         Debug\CClientTaskManager.obj
+         Debug\CContextDataManager.obj
+         Debug\CGame.obj
+         Debug\CGameFileChecker.obj
+         Debug\CModelManager.obj
+         Debug\COffsets.obj
+         Debug\CPools.obj
+         Debug\Indicators.obj
+         Debug\KeySync.obj
+         Debug\TrafficLights.obj
+         Debug\ScriptHook.obj
+         Debug\CIVCam.obj
+         Debug\CIVCheckpoint.obj
+         Debug\CIVDynamicEntity.obj
+         Debug\CIVEntity.obj
+         Debug\CIVEvent.obj
+         Debug\CIVModelInfo.obj
+         Debug\CIVPad.obj
+         Debug\CIVPadData.obj
+         Debug\CIVPed.obj
+         Debug\CIVPedTaskManager.obj
+         Debug\CIVPedWeapons.obj
+         Debug\CIVPhysical.obj
+         Debug\CIVPlayerInfo.obj
+         Debug\CIVPlayerPed.obj
+         Debug\CIVStreaming.obj
+         Debug\CIVTask.obj
+         Debug\CIVVehicle.obj
+         Debug\CIVPedWeaponSlot.obj
+         Debug\CIVWeaponInfo.obj
+         Debug\CIVWeather.obj
+         Debug\CIVWorld.obj
+         Debug\IVTasks.obj
+         Debug\CControlState.obj
+         Debug\CTime.obj
+         Debug\CTrafficLights.obj
+         Debug\CAudio.obj
+         Debug\CActorManager.obj
+         Debug\CFireManager.obj
+         Debug\CBlipManager.obj
+         Debug\CCheckpoint.obj
+         Debug\CCheckpointManager.obj
+         Debug\CClientPacketHandler.obj
+         Debug\CClientRPCHandler.obj
+         Debug\CFileTransfer.obj
+         Debug\CLocalPlayer.obj
+         Debug\CNetworkManager.obj
+         Debug\CNetworkPlayer.obj
+         Debug\CNetworkVehicle.obj
+         Debug\CObject.obj
+         Debug\CObjectManager.obj
+         Debug\CPickup.obj
+         Debug\CPickupManager.obj
+         Debug\CPlayerManager.obj
+         Debug\CRemotePlayer.obj
+         Debug\CStreamer.obj
+         Debug\CVehicleManager.obj
+         Debug\CBitStream.obj
+         Debug\CHttpClient.obj
+         Debug\CNetworkModule.obj
+         Debug\CPacketHandler.obj
+         Debug\CRPCHandler.obj
+         Debug\CMasterListQuery.obj
+         Debug\CServerQuery.obj
+         Debug\CClientScriptGUIManager.obj
+         Debug\CClientScriptManager.obj
+         Debug\CScriptingManager.obj
+         Debug\CScriptTimer.obj
+         Debug\CScriptTimerManager.obj
+         Debug\CScript.obj
+         Debug\CScriptArguments.obj
+         Debug\ClientNatives.obj
+         Debug\GUINatives.obj
+         Debug\PlayerNatives.obj
+         Debug\VehicleNatives.obj
+         Debug\AudioNatives.obj
+         Debug\AreaNatives.obj
+         Debug\EventNatives.obj
+         Debug\HashNatives.obj
+         Debug\SQLiteNatives.obj
+         Debug\TimerNatives.obj
+         Debug\WorldNatives.obj
+         Debug\XMLNatives.obj
+         Debug\CExceptionHandler.obj
+         Debug\CLibrary.obj
+         Debug\CLogFile.obj
+         Debug\CPatcher.obj
+         Debug\CSettings.obj
+         Debug\CString.obj
+         Debug\CVFSModule.obj
+         Debug\SharedUtility.obj
+         Debug\CSQLite.obj
+         Debug\sqlite3.obj
+         Debug\CXML.obj
+         Debug\ticpp.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\CMutex.obj
+         Debug\CThread.obj
+         Debug\md5.obj
+         Debug\CXLiveHook.obj
+         Debug\CCursorHook.obj
+         Debug\CDirect3DHook.obj
+         Debug\CDirectInputHook.obj /ignore:4099 /nodefaultlib:libcmtd.lib 
+     1>pcre_d.lib(pcre_chartables.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_chartables.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_compile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_compile.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_exec.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_exec.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_globals.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_globals.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_newline.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_newline.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_ord2utf8.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_ord2utf8.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_tables.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_tables.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_try_flipped.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_try_flipped.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_valid_utf8.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_valid_utf8.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_xclass.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_xclass.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftsystem.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftsystem.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftinit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftinit.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftdebug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftdebug.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftbase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftbase.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(bdf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(bdf.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(cff.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(cff.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(type1cid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(type1cid.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(pcf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(pcf.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(pfr.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(pfr.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(sfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(sfnt.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(truetype.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(truetype.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(type1.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(type1.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(type42.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(type42.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(winfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(winfnt.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(raster.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(raster.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(smooth.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(smooth.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(autofit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(autofit.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftgzip.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftgzip.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftlzw.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftlzw.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(psaux.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(psaux.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(pshinter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(pshinter.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(psnames.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(psnames.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'Z:\GTAMP\trunk\Binary\detours.pdb'; linking object as if no debug info
+     1>detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'Z:\GTAMP\trunk\Binary\detours.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Client.Core.Debug.dll.embed.manifest" /manifest Debug\Client.Core.Debug.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Client.Core.Debug.dll.embed.manifest.res" Debug\Client.Core.Debug_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\GTAMP\trunk\Binary\\Client.Core.Debug.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Vendor\lib\static /LIBPATH:..\..\Vendor\bass /LIBPATH:..\..\Vendor\DXSDK\Lib /LIBPATH:..\..\Vendor\lib winmm.lib d3dx9.lib ws2_32.lib comctl32.lib dinput8.lib dxguid.lib expat_static_d.lib pcre_d.lib SILLY_d.lib freetype_d.lib libjpeg_d.lib libpng_d.lib zlib_d.lib CEGUIBase_d.lib CEGUIDirect3D9Renderer_d.lib CEGUIExpatParser_d.lib CEGUIFalagardWRBase_d.lib CEGUISILLYImageCodec_d.lib version.lib bass.lib lua_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Client.Core.Debug.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\GTAMP\trunk\Binary\Client.Core.Debug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\GTAMP\trunk\Binary\Client.Core.Debug.lib" /MACHINE:X86 /SAFESEH:NO /DLL Debug\Client.Core.Debug.dll.embed.manifest.res
+         Debug\CEvents.obj
+         Debug\AimSync.obj
+         Debug\C3DLabels.obj
+         Debug\CAudioManager.obj
+         Debug\CClient.obj
+         Debug\CFileTransferManager.obj
+         Debug\CHooks.obj
+         Debug\CDebugView.obj
+         Debug\CIVObject.obj
+         Debug\CIVTrain.obj
+         Debug\CIVWeapon.obj
+         Debug\Commands.obj
+         Debug\CQuickConnect.obj
+         Debug\CServerBrowser.obj
+         Debug\CSettingsMenu.obj
+         Debug\CTrains.obj
+         Debug\Input.obj
+         Debug\Main.obj
+         Debug\CDirectInput8Proxy.obj
+         Debug\CDirectInputDevice8Proxy.obj
+         Debug\CChatWindow.obj
+         Debug\CCredits.obj
+         Debug\CFPSCounter.obj
+         Debug\CGraphics.obj
+         Debug\CGUI.obj
+         Debug\CInputWindow.obj
+         Debug\CMainMenu.obj
+         Debug\CNameTags.obj
+         Debug\CScreenShot.obj
+         Debug\CCamera.obj
+         Debug\CClientTaskManager.obj
+         Debug\CContextDataManager.obj
+         Debug\CGame.obj
+         Debug\CGameFileChecker.obj
+         Debug\CModelManager.obj
+         Debug\COffsets.obj
+         Debug\CPools.obj
+         Debug\Indicators.obj
+         Debug\KeySync.obj
+         Debug\TrafficLights.obj
+         Debug\ScriptHook.obj
+         Debug\CIVCam.obj
+         Debug\CIVCheckpoint.obj
+         Debug\CIVDynamicEntity.obj
+         Debug\CIVEntity.obj
+         Debug\CIVEvent.obj
+         Debug\CIVModelInfo.obj
+         Debug\CIVPad.obj
+         Debug\CIVPadData.obj
+         Debug\CIVPed.obj
+         Debug\CIVPedTaskManager.obj
+         Debug\CIVPedWeapons.obj
+         Debug\CIVPhysical.obj
+         Debug\CIVPlayerInfo.obj
+         Debug\CIVPlayerPed.obj
+         Debug\CIVStreaming.obj
+         Debug\CIVTask.obj
+         Debug\CIVVehicle.obj
+         Debug\CIVPedWeaponSlot.obj
+         Debug\CIVWeaponInfo.obj
+         Debug\CIVWeather.obj
+         Debug\CIVWorld.obj
+         Debug\IVTasks.obj
+         Debug\CControlState.obj
+         Debug\CTime.obj
+         Debug\CTrafficLights.obj
+         Debug\CAudio.obj
+         Debug\CActorManager.obj
+         Debug\CFireManager.obj
+         Debug\CBlipManager.obj
+         Debug\CCheckpoint.obj
+         Debug\CCheckpointManager.obj
+         Debug\CClientPacketHandler.obj
+         Debug\CClientRPCHandler.obj
+         Debug\CFileTransfer.obj
+         Debug\CLocalPlayer.obj
+         Debug\CNetworkManager.obj
+         Debug\CNetworkPlayer.obj
+         Debug\CNetworkVehicle.obj
+         Debug\CObject.obj
+         Debug\CObjectManager.obj
+         Debug\CPickup.obj
+         Debug\CPickupManager.obj
+         Debug\CPlayerManager.obj
+         Debug\CRemotePlayer.obj
+         Debug\CStreamer.obj
+         Debug\CVehicleManager.obj
+         Debug\CBitStream.obj
+         Debug\CHttpClient.obj
+         Debug\CNetworkModule.obj
+         Debug\CPacketHandler.obj
+         Debug\CRPCHandler.obj
+         Debug\CMasterListQuery.obj
+         Debug\CServerQuery.obj
+         Debug\CClientScriptGUIManager.obj
+         Debug\CClientScriptManager.obj
+         Debug\CScriptingManager.obj
+         Debug\CScriptTimer.obj
+         Debug\CScriptTimerManager.obj
+         Debug\CScript.obj
+         Debug\CScriptArguments.obj
+         Debug\ClientNatives.obj
+         Debug\GUINatives.obj
+         Debug\PlayerNatives.obj
+         Debug\VehicleNatives.obj
+         Debug\AudioNatives.obj
+         Debug\AreaNatives.obj
+         Debug\EventNatives.obj
+         Debug\HashNatives.obj
+         Debug\SQLiteNatives.obj
+         Debug\TimerNatives.obj
+         Debug\WorldNatives.obj
+         Debug\XMLNatives.obj
+         Debug\CExceptionHandler.obj
+         Debug\CLibrary.obj
+         Debug\CLogFile.obj
+         Debug\CPatcher.obj
+         Debug\CSettings.obj
+         Debug\CString.obj
+         Debug\CVFSModule.obj
+         Debug\SharedUtility.obj
+         Debug\CSQLite.obj
+         Debug\sqlite3.obj
+         Debug\CXML.obj
+         Debug\ticpp.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\CMutex.obj
+         Debug\CThread.obj
+         Debug\md5.obj
+         Debug\CXLiveHook.obj
+         Debug\CCursorHook.obj
+         Debug\CDirect3DHook.obj
+         Debug\CDirectInputHook.obj /ignore:4099 /nodefaultlib:libcmtd.lib 
+     1>pcre_d.lib(pcre_chartables.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_chartables.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_compile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_compile.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_exec.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_exec.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_globals.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_globals.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_newline.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_newline.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_ord2utf8.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_ord2utf8.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_tables.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_tables.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_try_flipped.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_try_flipped.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_valid_utf8.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_valid_utf8.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>pcre_d.lib(pcre_xclass.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'pcre_d.lib(pcre_xclass.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftsystem.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftsystem.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftinit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftinit.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftdebug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftdebug.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftbase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftbase.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(bdf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(bdf.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(cff.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(cff.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(type1cid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(type1cid.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(pcf.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(pcf.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(pfr.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(pfr.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(sfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(sfnt.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(truetype.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(truetype.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(type1.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(type1.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(type42.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(type42.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(winfnt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(winfnt.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(raster.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(raster.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(smooth.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(smooth.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(autofit.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(autofit.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftgzip.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftgzip.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(ftlzw.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(ftlzw.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(psaux.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(psaux.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(pshinter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(pshinter.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>freetype_d.lib(psnames.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'freetype_d.lib(psnames.obj)' or at 'Z:\GTAMP\trunk\Binary\vc90.pdb'; linking object as if no debug info
+     1>detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'Z:\GTAMP\trunk\Binary\detours.pdb'; linking object as if no debug info
+     1>detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'Z:\GTAMP\trunk\Binary\detours.pdb'; linking object as if no debug info
+         Client.Core.vcxproj -> Z:\GTAMP\trunk\Binary\Client.Core.Debug.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\Client.Core.unsuccessfulbuild".
+         Touching "Debug\Client.Core.lastbuildstate".
+     1>Done Building Project "Z:\GTAMP\trunk\Client\Core\Client.Core.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:11.71
